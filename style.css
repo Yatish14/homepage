@@ -1,0 +1,428 @@
+* 
+{
+  font-family: "Nunito", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+html
+{
+    height: 100%;
+}
+
+.only_mobile
+{
+  display: none;
+}
+.mf_Container
+{
+    padding-top: 25px;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.nav-icons i
+{
+    margin-right: 15px;
+    font-size: 24px;
+}
+
+.redLoss
+{
+    color: red;
+    margin-top: 5px;
+}
+.nifty_name
+{
+    font-size: xx-small;
+    color: gray;
+}
+.nifty_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+}
+.nifty_50
+{
+    display: flex;
+    border: 2px solid rgba(128, 128, 128, 0.567);
+    /* width: 40%; */
+    padding: 4px;
+    padding-left: 10px;
+}
+.mainLogoDiv {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0 25px 0;
+}
+.mainLogo
+{
+  width: 93%;
+  border-radius: 10px;
+}
+
+.Investment-Title{
+    margin-left: 4%;
+    font-size: 18px;
+}
+.icons
+{
+  background-color: white;
+  text-align: center;
+  padding: 10px 0 20px 0;
+  /* margin: 5px 0 20px 0px; */
+  box-shadow: 3px 3px rgba(128, 128, 128, 0.077);
+  border-radius: 5px;
+}
+
+.icons img
+{
+    border: 2px solid rgba(128, 128, 128, 0.077);
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}
+
+.icons div
+{
+  display: inline-block;
+  width: 23vw;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.icons div span
+{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: small;
+}
+.iconsDiv
+{
+    margin-bottom: 20px !important;
+}
+
+.icons div
+{
+  font-size: x-large;
+}
+
+.axisImage
+{
+    width: 70px;
+}
+.greenProfit
+{
+    color: rgb(18, 155, 13);
+    margin-top: 5px;
+}
+.mfcomp
+{
+    min-width: 75% !important;
+    display: flex !important;
+    padding: 10px;
+    height: 125px !important;
+    border: 2px solid rgba(128, 128, 128, 0.393);
+}
+.min-invest
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: gray;
+}
+.mf-price
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.mf-right
+{
+    padding-left: 15px;
+    padding-top: 10pX;
+
+}
+.topcomp
+{
+    flex-direction: column;
+    height: 142px !important;
+}
+.topcompdiv1
+{
+    display: flex;
+}
+.tipscomp
+{
+    height: 80px !important;
+    min-width: 75% !important;
+    display: flex !important;
+    padding: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.393);
+}
+.joinbtndiv
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.joinbtn
+{
+    border: none;
+    outline: none;
+    background-color: rgba(148, 208, 234, 0.327);
+    color: blue;
+    border-radius: 5px;
+    padding: 7px 15px;
+}
+.mf-name
+{
+    font-size: 16px;
+    font-weight: 700;
+}
+.topstockscont
+{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.129);
+}
+.topstocks_container
+{
+    padding: 10px;
+}
+.topstocksImage
+{
+    margin: 0 !important;
+    margin-bottom: 5px !important;
+    justify-content: left !important;
+}
+.topStocksName
+{
+    margin-bottom: 18px;
+}
+.topstockscomp{
+    min-width: 39% !important;
+    height: 180px !important;
+    padding-left: 10px;
+    margin-right: 10px !important;
+}
+.service_products .head 
+{
+  height: 35px;
+  background-color: #c8f7fb;
+  margin: 20px 7px 0px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  /* color: #2d848c; */
+  color: #00838f;
+}
+
+.service_products .sub_head
+{
+  margin: 10px 70px 10px;
+  display: flex;
+  height: 35px;
+  font-size: 1.3rem;
+  color: rgb(123, 122, 122);
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.service_products .companies_container
+{
+  display: flex;
+  overflow-x: scroll;
+}
+
+.service_products .companies_container::-webkit-scrollbar
+{
+  display: none;
+}
+
+.service_products .companies
+{
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  min-width: 100px;
+  max-width: 100px;
+}
+
+.service_products .image
+{
+  margin: 15px 10px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: white;
+}
+
+.service_products .text
+{
+  text-align: center;
+}
+
+.service_products .providing_services
+{
+  position: relative;
+  margin-top: 20px;
+  height: 130px;
+  margin: 5px;
+  background-color: white;
+  display: inline-block;
+  min-width: 200px;
+  max-width: 200px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.providing_services div
+{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.image-container
+{
+    position: relative;
+}
+
+.image-container img {
+    position: absolute;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 22px;
+    height: 22px;
+}
+
+.image-container img:nth-child(1) {
+    left: 4px;
+}
+.image-container img:nth-child(2) {
+    left: 21px;
+}
+
+.image-container img:nth-child(3) {
+    left: 36px;
+}
+.popularcourseimgwealth
+{
+    background-image: url('./images/popularstocks.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+}
+.popularcourseimgstocks
+{
+    background-image: url('./images/popularstocks.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+}
+.footercont .active
+{
+    color: blue;
+}
+.popularcoursecont
+{
+    display: flex;
+    overflow-x: scroll;
+}
+.popularcourselistitem
+{
+    height: 250px;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+}
+.div3
+{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.footer
+{
+  position: sticky;
+  bottom: 0;
+  height: 50px;
+  display: flex;
+  /* align-items: center; */
+}
+.footer div
+{
+  position: sticky;
+  bottom: 0;
+  height: 15px;
+  width: 19vw;
+}
+.logo-icon img
+{
+  width: 40px;
+  height: 40px;
+  background-color: #00838f;
+  padding: 0;
+}
+.footercont
+{
+    align-items: center !important;
+    padding: 0 !important;
+    height: 70px !important;
+    position: sticky;
+    bottom: 0;
+}
+.footercont div
+{
+    font-size: large !important;
+    width: 100% !important;
+    height: 25px !important;
+
+}
+@media (min-width: 720px)
+{
+  .content 
+  {
+    display: none;
+  }
+
+  .only_mobile 
+  {
+    display: block;
+  }
+}
